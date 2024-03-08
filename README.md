@@ -33,19 +33,19 @@ wget
 
 （1）准备数据集，如果已经有了就不需要进行这一步
 
-python download_sleepedf.py
+`python download_sleepedf.py`
 
 （2）数据预处理
 
-python prepare_sleepedf.py
+`python prepare_sleepedf.py`
 
 （3）训练模型，gpu0 表示启用gpu训练，1表示用cpu训练
 
-python trainer.py --db sleepedf --gpu 0 --from_fold 0 --to_fold 19
+`python trainer.py --db sleepedf --gpu 0 --from_fold 0 --to_fold 19`
 
 （4）模型预测 
 
-python predict.py --config_file config/sleepedf.py --model_dir out_sleepedf/train --output_dir out_sleepedf/predict --log_file out_sleepedf/predict.log --use-best
+`python predict.py --config_file config/sleepedf.py --model_dir out_sleepedf/train --output_dir out_sleepedf/predict --log_file out_sleepedf/predict.log --use-best`
 
 **运行**：如果是pycharm运行，输入下列指令即可。
 
