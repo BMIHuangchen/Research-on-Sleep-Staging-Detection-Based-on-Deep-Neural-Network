@@ -1,0 +1,5 @@
+cd prepare_datasets
+python prepare_physionet.py
+
+这里要训练20轮 修改 fold_id 0到19即可
+python train_Kfold_CV.py --device 0 --np_data_dir ./prepare_datasets/data_edf_78_npz/fpzcz --fold_id 0

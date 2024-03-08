@@ -1,0 +1,18 @@
+pytorch开启GPU要对应自己的cuda版本
+我的cuda是10.0.130
+如果是一个版本可以直接用下面的命令
+conda install pytorch==1.2.0 torchvision==0.4.0 cudatoolkit=10.0 -c pytorch
+
+torch == 1.10.0
+numpy == 1.21.2
+scikit-learn == 1.0.1
+Pandas == 1.2.1
+openpyxl == 3.0.6
+mne == 0.23.4
+mne-connectivity ==0.2
+notebook
+pyvista==0.31.3
+
+
+vtk==8.1.2
+mayavi==4.7.3  注意安装mayavi之前必须安装vtk

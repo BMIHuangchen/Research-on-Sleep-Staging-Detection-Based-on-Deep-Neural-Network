@@ -1,0 +1,12 @@
+#!/Users/tangbo/Downloads/BM-EEGNET/tangboVenv/bin/python
+# EASY-INSTALL-ENTRY-SCRIPT: 'mayavi==4.7.3','gui_scripts','mayavi2'
+__requires__ = 'mayavi==4.7.3'
+import re
+import sys
+from pkg_resources import load_entry_point
+
+if __name__ == '__main__':
+    sys.argv[0] = re.sub(r'(-script\.pyw?|\.exe)?$', '', sys.argv[0])
+    sys.exit(
+        load_entry_point('mayavi==4.7.3', 'gui_scripts', 'mayavi2')()
+    )
