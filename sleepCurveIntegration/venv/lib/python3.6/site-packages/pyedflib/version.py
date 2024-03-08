@@ -1,0 +1,10 @@
+
+# THIS FILE IS GENERATED FROM pyedflib SETUP.PY
+short_version = '0.1.19'
+version = '0.1.19'
+full_version = '0.1.19'
+git_revision = 'b413b353bbd51628dbd707a6f861cb8bd81002bb'
+release = True
+
+if not release:
+    version = full_version

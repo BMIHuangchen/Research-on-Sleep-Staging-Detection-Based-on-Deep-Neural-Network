@@ -1,0 +1,3 @@
+#!/Users/tangbo/Downloads/sleepCurveIntegration/venv1/bin/python
+from numba.pycc import main
+main()
